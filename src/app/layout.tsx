@@ -12,6 +12,15 @@ const workSans = Work_Sans({
 export const metadata: Metadata = {
   title: "Tabx3",
   description: "Tabx3",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+    other: {
+      rel: "icon",
+      url: "/icon.svg",
+    },
+  },
 };
 
 export default function RootLayout({
