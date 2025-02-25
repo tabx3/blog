@@ -2,17 +2,34 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="  fixed bottom-0  flex items-center justify-between capitalize text-dm py-6 ">
-      <div className=" flex items-center justify-start gap-2">
-        <Link href="/">github</Link>
-        <Link href="/">twitter</Link>
-        <Link href="/">telegram</Link>
-        <Link href="/">email</Link>
+    <div className="flex items-center justify-between capitalize fixed bottom-0 w-full max-w-xl px-6 py-4">
+      <div className="flex items-center justify-start gap-2">
+        <Link
+          className="hover:scale-110 hover:font-bold transition-all duration-200 block px-1"
+          href="/"
+        >
+          github
+        </Link>
+        <Link
+          className="hover:scale-110 hover:font-bold transition-all duration-200 block px-1"
+          href="/"
+        >
+          twitter
+        </Link>
+        <Link
+          className="hover:scale-110 hover:font-bold transition-all duration-200 block px-1"
+          href="/"
+        >
+          telegram
+        </Link>
+        <Link
+          className="hover:scale-110 hover:font-bold transition-all duration-200 block px-1"
+          href="/"
+        >
+          email
+        </Link>
       </div>
-
-      <p className="text-sm hidden md:block">
-        &copy; {new Date().getFullYear()} All rights reserved
-      </p>
+      <p className="text-sm hidden md:block">&copy; 2021 All rights reserved</p>
     </div>
   );
 }
