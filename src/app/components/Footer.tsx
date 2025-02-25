@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex items-center justify-between capitalize fixed bottom-0 w-full max-w-xl px-6 py-4">
+    <div className="flex items-center justify-between capitalize  bottom-0 w-full max-w-xl  py-4 mt-12">
       <div className="flex items-center justify-start gap-2">
         <Link
           className="hover:scale-110 hover:font-bold transition-all duration-200 block px-1"

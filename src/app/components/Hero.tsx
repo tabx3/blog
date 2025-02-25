@@ -1,8 +1,8 @@
 import Image from "next/image";
-
+import Link from "next/link";
 export default function Hero() {
   return (
-    <div className=" my-8  md:0 ">
+    <Link href="/blog/hore" className=" my-8  md:0 ">
       <div className="h-[180px] relative ">
         <Image
           src="/images/hero.png"
@@ -19,6 +19,6 @@ export default function Hero() {
           <p>Lorem ipsum ..., quos.</p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
